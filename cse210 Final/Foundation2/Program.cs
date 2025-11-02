@@ -3,7 +3,6 @@ class Program
 {
     static void Main(string[] args)
     {
-
         Product apples = new Product("apple", 01, 0.20, 8);
         Product oranges = new Product("orange", 02, .25, 10);
         Product bananas = new Product("banana", 03, 0.40, 5);
@@ -36,6 +35,5 @@ class Program
         Console.WriteLine(order2.PackingLable());
         Console.WriteLine(order2.ShippingLable());
         Console.WriteLine($"{order2.CalculateCost()}$");
-
     }
 }
