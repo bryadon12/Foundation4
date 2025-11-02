@@ -16,47 +16,47 @@ public class Product
         _quantity = quantity;
     }
 
-    public void setName(string name)
+    public void SetName(string name)
     {
         _name = name;
     }
 
-    public string getName()
+    public string GetName()
     {
         return _name;
     }
 
-    public void setProductID(int productID)
+    public void SetProductID(int productID)
     {
         _productID = productID;
     }
 
-    public int getProductID()
+    public int GetProductID()
     {
         return _productID;
     }
 
-    public void setUnitPrice(float unitPrice)
+    public void SetUnitPrice(float unitPrice)
     {
         _unitPrice = unitPrice;
     }
 
-    public float getUnitPrice()
+    public float GetUnitPrice()
     {
         return _unitPrice;
     }
 
-    public void setquantity(int quantity)
+    public void Setquantity(int quantity)
     {
         _quantity = quantity;
     }
 
-    public int getQuantity()
+    public int GetQuantity()
     {
         return _quantity;
     }
 
-    public float getCost()
+    public float GetCost()
     {
         return _unitPrice * _quantity;
     }

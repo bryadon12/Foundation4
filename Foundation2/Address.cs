@@ -11,51 +11,51 @@ public class Address
     {
         _streetAddress = streetAddress;
         _city = city;
-        _state = state;
+        _state = state;S
         _country = country;
     }
 
-    public void setStreetAddress(string streetAddress)
+    public void SetStreetAddress(string streetAddress)
     {
         _streetAddress = streetAddress;
     }
 
-    public string getStreetAddress()
+    public string GetStreetAddress()
     {
         return _streetAddress;
     }
 
-    public void setCity(string city)
+    public void SetCity(string city)
     {
         _city = city;
     }
 
-    public string getCity()
+    public string GetCity()
     {
         return _city;
     }
 
-    public void setState(string state)
+    public void SetState(string state)
     {
         _state = state;
     }
 
-    public string getState()
+    public string GetState()
     {
         return _state;
     }
 
-    public void setCountry(string country)
+    public void SetCountry(string country)
     {
         _country = coutry;
     }
 
-    public string getCountry()
+    public string GetCountry()
     {
         return _country;
     }
 
-    public bool isUSA()
+    public bool IsUSA()
     {
         if (_country == "USA")
         {
@@ -67,7 +67,7 @@ public class Address
         }
     }
 
-    public string getAddress()
+    public string GetAddress()
     {
         return $"{_streetAddress} {_city} {_state} {_country}";
     }
