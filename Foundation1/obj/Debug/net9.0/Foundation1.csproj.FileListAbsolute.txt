@@ -1,0 +1,14 @@
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\bin\Debug\net9.0\Foundation1.exe
+C:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\bin\Debug\net9.0\Foundation1.deps.json
+C:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\bin\Debug\net9.0\Foundation1.runtimeconfig.json
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\bin\Debug\net9.0\Foundation1.dll
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\bin\Debug\net9.0\Foundation1.pdb
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\Foundation1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\Foundation1.AssemblyInfoInputs.cache
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\Foundation1.AssemblyInfo.cs
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\Foundation1.csproj.CoreCompileInputs.cache
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\Foundation1.dll
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\refint\Foundation1.dll
+c:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\Foundation1.pdb
+C:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\Foundation1.genruntimeconfig.cache
+C:\Users\bctol\OneDrive\Desktop\School\BYUI\Fall 2025\cse210 Final\Foundation1\obj\Debug\net9.0\ref\Foundation1.dll
