@@ -1,7 +1,4 @@
 
-using System.Net.Http.Headers;
-using System.Numerics;
-
 public class Order
 {
     private Customer _customer;
@@ -14,17 +11,30 @@ public class Order
         _products = new List<Product>();
     }
 
+    public Order()
+    {
+        _products = new List<Product>();
+    }
+
     public void AddProduct(Product product)
     {
         _products.Add(product);
     }
 
-    public float ClculateCost()
+    public float CaculateCost()
     {
         float cost = 0;
         foreach (Product product in _products)
         {
             cost += product.GetCost();
+        }
+        if (_customer.IsUSA())
+        {
+            cost += 5;
+        }
+        else
+        {
+            cost += 35;
         }
         return cost;
     }

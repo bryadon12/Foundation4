@@ -1,7 +1,4 @@
 
-using System.Dynamic;
-using System.Net.Sockets;
-
 public class Customer
 {
     private string _name;
@@ -11,6 +8,11 @@ public class Customer
     {
         _name = name;
         _address = address;
+    }
+
+    public Customer()
+    {
+        
     }
 
     public void setName(string name)
