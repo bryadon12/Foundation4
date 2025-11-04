@@ -41,10 +41,10 @@ public class Order
 
     public string PackingLable()
     {
-        string packingLable;
+        string packingLable = "";
         foreach (Product product in _products)
         {
-            packingLable = $"{packingLable} {product.GetName()}: {product.GetProductID()}\n";
+            packingLable = packingLable + $" {product.GetName()}: {product.GetProductID()}\n";
         }
 
         return packingLable;
