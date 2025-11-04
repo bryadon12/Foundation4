@@ -18,7 +18,7 @@ public class Event
         _type = type;
     }
 
-    public string StandardDetails()
+    public string Details()
     {
         return $"{_title}\n{_description}\n{_time}\n{_address}";
     }
