@@ -10,22 +10,20 @@ class Program
         Product milk = new Product("milk", 04, 4.50, 1);
         Product butter = new Product("butter", 05, 1.00, 4);
 
-        Costomer customer1 = new Costomer();
+        Customer customer1 = new Customer();
         customer1.setName("John");
         customer1.setAddress(new Address("123 Main st.", "Rexburg", "ID", "USA"));
 
-        Order order1 = new Order();
-        order1.setCustomer(customer1);
+        Order order1 = new Order(customer1);
         order1.AddProduct(apples);
         order1.AddProduct(oranges);
         order1.AddProduct(bananas);
 
-        Costomer customer1 = new Costomer();
+        Customer customer2 = new Customer();
         customer1.setName("Juan");
         customer1.setAddress(new Address("321 Las Floras", "Tacuba", "Ciudad de Mexico", "Mexico"));
 
-        Order order2 = new Order();
-        order2.setCustomer(customer1);
+        Order order2 = new Order(customer2);
         order2.AddProduct(milk);
         order2.AddProduct(butter);
 

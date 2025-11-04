@@ -15,28 +15,28 @@ public class Customer
         
     }
 
-    public void setName(string name)
+    public void SetName(string name)
     {
         _name = name;
     }
 
-    public string getName()
+    public string GetName()
     {
         return _name;
     }
 
-    public void setAddress(Address address)
+    public void SetAddress(Address address)
     {
         _address = address;
     }
 
-    public Address getAddress()
+    public Address GetAddress()
     {
         return _address;
     }
     
-    public bool inUSA()
+    public bool InUSA()
     {
-        return _address.isUSA();
+        return _address.IsUSA();
     }
 }

@@ -2,7 +2,7 @@
 public class Order
 {
     private Customer _customer;
-    private List<Product> _pruducts;
+    private List<Product> _products;
 
 
     public Order(Customer customer)
@@ -21,14 +21,14 @@ public class Order
         _products.Add(product);
     }
 
-    public float CaculateCost()
+    public float CalculateCost()
     {
         float cost = 0;
         foreach (Product product in _products)
         {
             cost += product.GetCost();
         }
-        if (_customer.IsUSA())
+        if (_customer.InUSA())
         {
             cost += 5;
         }
