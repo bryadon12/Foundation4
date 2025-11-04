@@ -10,8 +10,8 @@ class Program
         Product butter = new Product("butter", 05, 1.00, 4);
 
         Customer customer1 = new Customer();
-        customer1.setName("John");
-        customer1.setAddress(new Address("123 Main st.", "Rexburg", "ID", "USA"));
+        customer1.SetName("John");
+        customer1.SetAddress(new Address("123 Main st.", "Rexburg", "ID", "USA"));
 
         Order order1 = new Order(customer1);
         order1.AddProduct(apples);
@@ -19,15 +19,10 @@ class Program
         order1.AddProduct(bananas);
 
         Customer customer2 = new Customer();
-        customer1.setName("Juan");
-        customer1.setAddress(new Address("321 Las Floras", "Tacuba", "Ciudad de Mexico", "Mexico"));
+        customer1.SetName("Juan");
+        customer1.SetAddress(new Address("321 Las Floras", "Tacuba", "Ciudad de Mexico", "Mexico"));
 
-<<<<<<< HEAD
         Order order2 = new Order(customer2);
-=======
-        Order order2 = new Order();
-        order2.setCustomer(customer2);
->>>>>>> b42a39017e2d77d62102b279321952f62a7579d4
         order2.AddProduct(milk);
         order2.AddProduct(butter);
 

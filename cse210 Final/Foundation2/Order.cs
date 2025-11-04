@@ -21,9 +21,9 @@ public class Order
         _products.Add(product);
     }
 
-    public float CalculateCost()
+    public double CalculateCost()
     {
-        float cost = 0;
+        double cost = 0;
         foreach (Product product in _products)
         {
             cost += product.GetCost();
