@@ -3,7 +3,6 @@ class Program
 {
     static void Main(string[] args)
     {
-
         Product apples = new Product("apple", 01, 0.20, 8);
         Product oranges = new Product("orange", 02, .25, 10);
         Product bananas = new Product("banana", 03, 0.40, 5);
@@ -23,7 +22,12 @@ class Program
         customer1.setName("Juan");
         customer1.setAddress(new Address("321 Las Floras", "Tacuba", "Ciudad de Mexico", "Mexico"));
 
+<<<<<<< HEAD
         Order order2 = new Order(customer2);
+=======
+        Order order2 = new Order();
+        order2.setCustomer(customer2);
+>>>>>>> b42a39017e2d77d62102b279321952f62a7579d4
         order2.AddProduct(milk);
         order2.AddProduct(butter);
 
@@ -34,6 +38,5 @@ class Program
         Console.WriteLine(order2.PackingLable());
         Console.WriteLine(order2.ShippingLable());
         Console.WriteLine($"{order2.CalculateCost()}$");
-
     }
 }
